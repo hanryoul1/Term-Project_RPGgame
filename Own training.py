@@ -11,8 +11,8 @@ def main():
     img_bg = pygame.image.load("back1.png")
     img_chara = [
  
-        pygame.image.load("mychar6.png"),
-        pygame.image.load("mychar7.png")
+        pygame.image.load("mychr6.png"),
+        pygame.image.load("mychr7.png")
     ]
     tmr = 0
 
