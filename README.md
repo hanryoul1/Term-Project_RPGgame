@@ -1,2 +1,2 @@
 # TermProject_RPGgame-HR
-TermProject_RPGgame in 2021
+'Introduction to Software Convergence'/ TermProject in 2021
