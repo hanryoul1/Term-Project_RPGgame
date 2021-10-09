@@ -5,14 +5,14 @@ import sys
 
 def main():
     pygame.init()
-    pygame.display.set_caption("첫번째 Pygame: 이미지 표시")
+    pygame.display.set_caption("야마다상의 마네키네코 탈환 작전!")
     screen = pygame.display.set_mode((640, 360))
-    clock = pygame.time.clock()
-    img_bg = pygame.image.load("back1.png")
+    clock = pygame.time.Clock()
+    img_bg = pygame.image.load("TermProject_RPGgame/back1.png")
     img_chara = [
  
-        pygame.image.load("mychr6.png"),
-        pygame.image.load("mychr7.png")
+        pygame.image.load("TermProject_RPGgame/mychr6.png"),
+        pygame.image.load("TermProject_RPGgame/mychr7.png")
     ]
     tmr = 0
 
