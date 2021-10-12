@@ -1,19 +1,18 @@
-"""This is my own training code"""
-"""Character moving level 1 _HR (10/9)"""
+"""Character moving level 2 _HR (10/11)"""
 
 import pygame
 import sys
 
 def main():
     pygame.init()
-    pygame.display.set_caption("야마다상의 마네키네코 탈환 작전!")
+    pygame.display.set_caption("야마다상의 마네키네코 탈환 작전 Level 2")
     screen = pygame.display.set_mode((640, 360))
     clock = pygame.time.Clock()
-    img_bg = pygame.image.load("TermProject_RPGgame\image/back1.png")
+    img_bg = pygame.image.load("image/back2.png")
     img_chara = [
  
-        pygame.image.load("TermProject_RPGgame\image/mychr6.png"),
-        pygame.image.load("TermProject_RPGgame\image/mychr7.png")
+        pygame.image.load("image/mychr6.png"),
+        pygame.image.load("image/mychr7.png")
     ]
     tmr = 0
 
