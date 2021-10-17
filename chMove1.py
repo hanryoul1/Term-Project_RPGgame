@@ -6,7 +6,7 @@ import sys
 def main():
     pygame.init()
     pygame.display.set_caption("야마다상의 마네키네코 탈환 작전 Level 1")
-    screen = pygame.display.set_mode((640, 360))
+    screen = pygame.display.set_mode((500, 500))
     clock = pygame.time.Clock()
     img_bg = pygame.image.load("image/back1.png")
     img_chara = [
